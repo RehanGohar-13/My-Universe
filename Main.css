@@ -91,3 +91,53 @@ footer p {
     transform: translateY(0);
   }
 }
+
+.star-list {
+  list-style: none; /* Remove default bullets */
+  padding-left: 1.2em; /* Give space for the custom symbol */
+}
+
+.star-list li::before {
+  content: "✦"; /* Or use ✨ if you prefer */
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: #ff69b4; /* Gold color for the star */
+}
+
+.tea-styling {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.tea-styling h2 {
+  color: #004d4d;
+  margin-bottom: 10px;
+}
+
+.tea-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.buy-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #004d4d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.buy-button:hover {
+  background-color: #006666;
+}
