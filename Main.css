@@ -141,3 +141,77 @@ footer p {
 .buy-button:hover {
   background-color: #006666;
 }
+
+.brew-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.brew-list li {
+  margin-bottom: 10px;
+  padding-left: 1.2em;
+  position: relative;
+  line-height: 1.6;
+  font-size: 1.05em;
+}
+
+.tips {
+  list-style: none;
+  padding-left: 0;
+}
+.tips li::before {
+  content: "💡";
+  margin-right: 0.4em;
+}
+
+.tips {
+  list-style: none;
+  padding: 1rem;
+  background-color: #fef8f4; /* soft peach or beige */
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 600px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.tips li {
+  margin: 0.5em 0;
+  padding-left: 1.2em;
+  position: relative;
+}
+
+.tips li::before {
+  content: "💡";
+  position: absolute;
+  left: 0;
+}
+
+.rehan-note {
+  background-color: #fff6e6;
+  border-left: 4px solid #ffb347;
+  padding: 0.6em 1em;
+  border-radius: 6px;
+  font-style: italic;
+}
+
+.rehan-note {
+  background-color: #fff6e6;
+  border-left: 4px solid #ffb347;
+  padding: 0.8em 1em;
+  border-radius: 6px;
+  margin-top: 1em;
+  font-style: italic;
+  position: relative;
+}
+
+.note-label {
+  display: inline-block;
+  font-weight: bold;
+  color: #d97706;
+  background-color: #fef3c7;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
